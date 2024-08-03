@@ -1,18 +1,18 @@
 p {
     font-family: "Lato", sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-style: normal;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     margin: auto;
     text-align: center;
-    line-height: 1.5;
+    line-height: 1.75;
 }
 
 h1 {
-    font-family: "Cormorant", serif;
+    font-family: "DM Serif Display", serif;
     font-optical-sizing: auto;
-    font-weight: 100;
+    font-weight: 300;
     font-style: normal;
     font-size: 50px;
     color: white;
@@ -21,7 +21,9 @@ h1 {
 }
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     font-size: 20px;
     color: black;
     margin: auto;
@@ -61,9 +63,9 @@ body {
 
 
 .hero {
-    background-image: url("https://lh3.googleusercontent.com/fife/ALs6j_G2rhvdJtBGTnpBqFn_-D0Y9kLkIBltr_BJ7qtFQxbFaVvA0v0GnXSR2FI8dDxHHMxr6X6S9lyBDnVWvTThK5KZ23oYlquDIiDy746XXW2NivQvla3FmUzG5VKV0qtZThzcjw5RVFCgGopEBPVOrTUfv9_k27JpI4rWyasHlYa_4IiOogeu0vKDDHldQbq6J8VRJRf14V9j1eVcR9bTbeDtHuNNL5pDV-oA8P0BXiy4G6pHHG8ETydevcAK4zGjTU7RwkBXYMKhCLNARQCSBG1byQ6m3GdJuL_omUjvwJlmQvlg8m50a5erIbNCnNwD0x2Chuops5_j2sKsVP1HNRwEn7MER00pT2cGyV5gI3mQA_qHu8wqOHmz2c905yjxOabS4DF1TkM0Hx-_PW8ZsvY2KUCL5Dfd_5krRqTeUl4dOdrdrtOB8i-z6V4vklmeI6YHMcoGEHofDr6Frzc_rNFUkT56I_vmp_qT7s05aHD0caM4fhOY5n36kxh4ThN7fM35a0YCG6rMwut0c2nnZYCh7zVZhyAbDsaA0mS4MrQU49gp_6Ix0tnlQdIDT1Lw018rBDaR3QkdzLut4WjxlYRtGG-HtfqbvHgFINbBtsD0GKUpPuEeSPeomH4jku8VNiPUNFnBdpGawSC8seBaEdlCJOBH2f0DSjz07IzwYUkVCEvttk1rHFpbUcExDinmI-dL0J89RmlY1qHv6tdHottolwHt3huweCBZWfRlW3Tj7PaBCUG7m9TAfnNvBj1y_Hu_j3Mszrgaak8359-x0wMgKnt3fwE6mMTufSPzOCL5Iu21BUT336Zn39Cb6oNDl1TRjU0sGekxAnc8NGT1P8bVIUwUZd1wyAs1s5AffMosY4WbqBsYA_8G_hpNveVCgc1JNjK7kt09crSjN1hT-75ahQuNKhSViUWHjHtTFxyXrKIGJpRRJEo6uydGCXrZBLfdVJM1EDWM7njgFf-LqpdsuIxINx4_mbUvPOftdz4xQGoGYNB81p2tlD7UMh_AluEhnIW9_vncmY64oU4wcVyWK8Kc4bdfi0OnaN5F9Yt525hUX_RuKSZF_uvf-QGz_SkkrWURevtTEJxmGrY2YhkFjQBVcAt32KHpcA2MTVw0Lwq9mD0vWw_yMxkcB0W2-yv1FPqayMr-rdqmA4BaXvFdA6RZePBJE8DThA3zxyfO6OMpR5JufI12U3MpPWh1MUT4f9rcZXW70f0BeaADyYJqvzWdzDIHLmPSnoq2ZFCb4Lpu1vd8oJJM-zxlQBACaVDfvIqeOymaVIyWR10krCVUqKdlGAbozvK3T63Lx5LZrE6IwZRF-a3ML2i7lNE_pT2zZqFTAhsrdbTyxZNpogkIOMRPO8al27Cry1ONUbHRWzr_wzik5URsdH2LndGV5AKqiFlbqLzbhwsV4XUmlMU5nzaA388ypKj-7jIgnr5ktGAleJyCwiG-ACiG1J4uP_bk_ahvoViGA_Fzrcg1NUyZar1Hrydz_E0EwJqEPfLrIcUuQBFLDD3Kj37HjeDKRB8JEFs9rd-Tt3VbfAUbP4pByQTjdzqdsVVCr_8MO7uzoQInZNK870sSYhfXWsYYp7wEPk99Og=w846-h1226");
+    background-image: url("/portfolio/images/hero-back.png");
     background-size: cover;
-    padding: 120px;
+    padding: 160px;
     height: 700px;
     box-sizing: border-box;
 }
@@ -83,12 +85,21 @@ body {
     padding: 150px;
 }
 
-.about {
+.about, .skills {
     margin: auto;
-    height: 800px;
-    background-color: pink;
+    height: 300px;
     box-sizing: border-box;
-    padding: 150px;
+    padding: 20px;
+}
+
+.about {
+    width: 70%;
+    background-color: pink;
+}
+
+.skills {
+    width: 30%;
+    background-color: EFEFEF;
 }
 
 img {
@@ -107,4 +118,9 @@ img {
     padding: 15px;
     border-radius: 2px;
     border: 0px;
+}
+
+.fullwidth-area {
+    width: 100%;
+    display: flex; 
 }
